@@ -306,7 +306,7 @@ const Hero = () => {
       <p className="mb-40 leading-relaxed lin">
       When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market. 
       </p>
-      <p>  Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
+      <p>Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
      
       <button className="inline-flex items-center text-gray-900  w-36 h-12 rounded-s  bg-[#ceccdc5d] border-0 mt-4 py-5  mb-20 focus:outline-none hover:bg-indigo-600 p-4 ">
               Get in touch
