@@ -14,6 +14,7 @@ import { TbTruckDelivery } from "react-icons/tb";
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
 import { MdOutlineFeaturedPlayList } from "react-icons/md";
 import { PiFlowerTulip } from "react-icons/pi";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -65,31 +66,33 @@ const About = () => {
           </div>
         </nav>
         {/* New Section with 9 Links */}
-        <div className="bg-gray-100 py-4 px-6">
-          <div className="max-w-7xl mx-auto text-center space-x-6">
-            {/* Map over the items and create responsive layout */}
-            <div className="flex flex-wrap justify-center gap-4 sm:gap-6 lg:gap-8">
-              {[
-                "All products",
-                "Plant pots",
-                "Ceramics",
-                "Tables",
-                "Chairs",
-                "Crockery",
-                "Tableware",
-                "Cutlery",
-              ].map((item) => (
-                <a
-                  key={item}
-                  href="#"
-                  className="text-sm font-medium hover:text-gray-800 sm:text-base lg:text-lg"
-                >
-                  {item}
-                </a>
-              ))}
-            </div>
-          </div>
-        </div>
+     {/* New Section with 9 Links */}
+<div className="bg-gray-100 py-4 px-6">
+  <div className="max-w-7xl mx-auto text-center space-x-6">
+    {/* Map over the items and create responsive layout */}
+    <div className="flex flex-wrap justify-center gap-4 sm:gap-6 lg:gap-8">
+      {[
+        { name: "All products", link: "/pages/product" },
+        { name: "Plant pots", link: "/products/plant-pots" },
+        { name: "Ceramics", link: "/products/ceramics" },
+        { name: "Tables", link: "/products/tables" },
+        { name: "Chairs", link: "/products/chairs" },
+        { name: "Crockery", link: "/products/crockery" },
+        { name: "Tableware", link: "/products/tableware" },
+        { name: "Cutlery", link: "/products/cutlery" },
+      ].map((item) => (
+        <a
+          key={item.name}
+          href={item.link}
+          className="text-sm font-medium hover:text-gray-800 sm:text-base lg:text-lg"
+        >
+          {item.name}
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
+
       </header>
 
       <div className="bg-[#ffffff] h-52 font-[clash-display] py-8">
@@ -103,12 +106,15 @@ const About = () => {
           </div>
           {/* Right Side: Button */}
           <div className="w-full md:w-1/2 flex justify-center items-center">
+          <Link href="/pages/product">
+
             <button
               onClick={() => console.log("View our products")}
               className="inline-flex items-center text-black w-40 h-12 bg-[#f9f9f9] mt-6 sm:mt-8 md:mt-12 py-3 sm:py-4 mb-10 md:mb-20 focus:outline-none hover:bg-purple-900 p-4 text-sm sm:text-base"
             >
               View our products
             </button>
+            </Link>
           </div>
         </div>
       </div>

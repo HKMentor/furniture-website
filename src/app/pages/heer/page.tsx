@@ -5,7 +5,7 @@ import { TiTick } from "react-icons/ti";
 import { MdOutlinePriceChange } from "react-icons/md";
 import Header from "@/app/component/Header";
 import Footer from "@/app/component/Footer";
-
+import Link from "next/link";
 const Hero = () => {
   return (
     <div>
@@ -19,9 +19,13 @@ const Hero = () => {
         <br className="hidden lg:inline-block" />
         future, with timeless designs
       </h1>
-      <button className="inline-flex items-center text-white w-36 h-12 bg-[#ceccdc5d] border-0 mt-4 py-5 mb-6 md:mb-20 focus:outline-none hover:bg-purple-900 p-4">
-        View collection
-      </button>
+
+<Link href="/pages/product">
+  <button className="inline-flex items-center text-white w-36 h-12 bg-[#ceccdc5d] border-0 mt-4 py-5 mb-6 md:mb-20 focus:outline-none hover:bg-purple-900 p-4">
+    View collection
+  </button>
+</Link>
+
       <div className="flex justify-center">
         <p className="mb-8 leading-relaxed text-white">
           A new era in eco-friendly furniture with Avelon, the French
@@ -189,9 +193,12 @@ const Hero = () => {
 
   {/* Centering the button */}
   <div className="flex justify-center mt-6">
-    <button className="text-black w-36 h-12 rounded-s bg-[#f9f9f9]  py-2 px-4 focus:outline-none hover:bg-indigo-500">
+  <Link href="/pages/product">
+
+    <button className="text-black w-36 h-12 rounded-s bg-[#f9f9f9]  py-2 px-4 focus:outline-none hover:bg-purple-700">
       View collection
     </button>
+    </Link>
   </div>
 
 
