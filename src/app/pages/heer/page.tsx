@@ -124,7 +124,10 @@ const Hero = () => {
   <div className="flex flex-wrap">
     {/* Product 1 */}
     <div className="w-full sm:w-1/4 p-2">
+    
       <div className="bg-white p-4 w-full h-[375px]">
+      <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105">
+
         <Image
           src="/images/product1.jpg"
           alt="product 1"
@@ -136,12 +139,16 @@ const Hero = () => {
           <h3 className="text-lg font-medium mb-1">The Dandy Chair</h3>
           <p className="text-gray-600">£250</p>
         </div>
+        
+        </Link>
       </div>
     </div>
 
     {/* Product 2 */}
     <div className="w-full sm:w-1/4 p-2">
       <div className="bg-white p-4 w-full h-[375px]">
+      <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105">
+
         <Image
           src="/images/product2.jpg"
           alt="product 2"
@@ -153,12 +160,15 @@ const Hero = () => {
           <h3 className="text-lg font-medium mb-1">Rustic Vase Set</h3>
           <p className="text-gray-600">£155</p>
         </div>
+        </Link>
       </div>
     </div>
 
     {/* Product 3 */}
     <div className="w-full sm:w-1/4 p-2">
       <div className="bg-white p-4 w-full h-[375px]">
+      <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105">
+
         <Image
           src="/images/product3.jpg"
           alt="product 3"
@@ -170,12 +180,15 @@ const Hero = () => {
           <h3 className="text-lg font-medium mb-1">The Silky Vase</h3>
           <p className="text-gray-600">£125</p>
         </div>
+        </Link>
       </div>
     </div>
 
     {/* Product 4 */}
     <div className="w-full sm:w-1/4 p-2">
       <div className="bg-white p-4 w-full h-[375px]">
+      <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105">
+
         <Image
           src="/images/product4.jpg"
           alt="product 4"
@@ -187,6 +200,7 @@ const Hero = () => {
           <h3 className="text-lg font-medium mb-1">The Lucy Lamp</h3>
           <p className="text-gray-600">£399</p>
         </div>
+        </Link>
       </div>
     </div>
   </div>
@@ -212,17 +226,19 @@ const Hero = () => {
     {/* First Product 5 */}
     <div className="w-full sm:w-1/2 p-2 mb-6 sm:mb-0">
       <div className="p-2 flex flex-col justify-between h-[400px] w-full max-w-[900px] mx-auto">
-        <Image
-          src="/images/product5.jpg"
-          alt="Product 5"
-          width={350}
-          height={200}
-          className="mb-4 object-cover w-full h-[350px]"
-        />
-        <div className="text-left flex-grow">
-          <h3 className="text-lg font-medium mb-1">The Popular suede sofa</h3>
-          <p className="text-gray-600">£980</p>
-        </div>
+          <Link  href="/pages/product5" className="block transition-transform duration-500 ease-in-out transform hover:scale-105">
+            <Image
+              src="/images/product5.jpg"
+              alt="Product 5"
+              width={350}
+              height={200}
+              className="mb-4 object-cover w-full h-[350px]"
+            />
+            <div className="text-left flex-grow">
+              <h3 className="text-lg font-medium mb-1">The Popular suede sofa</h3>
+              <p className="text-gray-600">£980</p>
+            </div>
+          </Link>
       </div>
     </div>
 
@@ -230,36 +246,41 @@ const Hero = () => {
     <div className="w-full sm:w-1/2 flex flex-wrap justify-between">
       {/* Product 6 */}
       <div className="w-full sm:w-1/2 p-0 mb-6 sm:mb-0">
-        <div className="bg-white p-4 h-full flex flex-col justify-between">
-          <Image
-            src="/images/product6.jpg"
-            alt="Product 6"
-            width={500}
-            height={500}
-            className="mb-4 object-cover h-[350px] w-full"
-          />
-          <div className="text-left flex-grow">
-            <h3 className="text-lg font-medium mb-1">The Dandy chair</h3>
-            <p className="text-gray-600">£250</p>
-          </div>
-        </div>
+          <Link href="/pages/product7" className="block transition-transform duration-500 ease-in-out transform hover:scale-105">
+            <div className="bg-white p-4 h-full flex flex-col justify-between">
+              <Image
+                src="/images/product6.jpg"
+                alt="Product 6"
+                width={500}
+                height={500}
+                className="mb-4 object-cover h-[350px] w-full"
+              />
+              <div className="text-left flex-grow">
+                <h3 className="text-lg font-medium mb-1">The Dandy chair</h3>
+                <p className="text-gray-600">£250</p>
+              </div>
+            </div>
+          </Link>
       </div>
 
       {/* Product 7 */}
       <div className="w-full sm:w-1/2 p-0">
-        <div className="bg-white p-4 h-full flex flex-col justify-between">
-          <Image
-            src="/images/product7.jpg"
-            alt="Product 7"
-            width={500}
-            height={500}
-            className="mb-4 object-cover h-[350px] w-full"
-          />
-          <div className="text-left flex-grow">
-            <h3 className="text-lg font-medium mb-1">The Dandy chair</h3>
-            <p className="text-gray-600">£255</p>
-          </div>
-        </div>
+          <Link href="/pages/product7" className="block transition-transform duration-500 ease-in-out transform hover:scale-105">
+            <div className="bg-white p-4 h-full flex flex-col justify-between">
+              <Image
+                src="/images/product7.jpg"
+                alt="Product 7"
+                width={500}
+                height={500}
+                className="mb-4 object-cover h-[350px] w-full"
+              />
+              <div className="text-left flex-grow">
+                <h3 className="text-lg font-medium mb-1">The Dandy chair</h3>
+                <p className="text-gray-600">£255</p>
+              </div>
+            </div>
+          </Link>
+        
       </div>
     </div>
   </div>
@@ -270,6 +291,7 @@ const Hero = () => {
     </button>
   </div>
 </div>
+
 
 <div className="bg-[#F9f9f9] py-12 font-[clash display]">
   <div

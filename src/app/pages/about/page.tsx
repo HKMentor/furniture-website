@@ -37,7 +37,7 @@ const About = () => {
           <div className="text-lg">Avion</div>
           {/* Right Side: Links and Icons */}
           <div className="flex items-center space-x-6">
-            <a href="#" className="text-sm font-medium hover:text-gray-600">
+            <a href="/pages/heer" className="text-sm font-medium hover:text-gray-600">
               About Us
             </a>
             <a

@@ -36,7 +36,7 @@ const Header = () => {
               <ul className="text-[#2A254B]">
                 <li>
                   <Link
-                    href="/pages/heer"
+                    href="/pages/about"
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
                     Home
@@ -44,7 +44,7 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    href="/pages/about"
+                    href="/pages/heer"
                     className="block px-4 py-2 hover:bg-gray-100"
                   >
                     About
@@ -139,11 +139,11 @@ const Header = () => {
       {/* Mobile Navigation Links */}
       {isMobileMenuOpen && (
         <div className="md:hidden mt-4 bg-white shadow-lg rounded-lg p-4 space-y-4 text-gray-400">
-          <Link href="/" className="block hover:text-gray-800 transition">
+          <Link href="/pages/about" className="block hover:text-gray-800 transition">
             Home
           </Link>
           <Link
-            href="/pages/about"
+            href="#"
             className="block hover:text-gray-800 transition"
           >
             About

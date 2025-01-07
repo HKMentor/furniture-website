@@ -2,7 +2,7 @@ import Footer from '@/app/component/Footer'
 import Header from '@/app/component/Header'
 import React from 'react'
 import Image from 'next/image'
-
+import Link from 'next/link'
 const products = () => {
   return (
     <div>
@@ -77,15 +77,15 @@ const products = () => {
         <div className="container px-20 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative  rounded overflow-hidden">
-                <Image
+            <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105  relative h-80 rounded overflow-hidden">
+            <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="/products/pro1.jpg"
                   width={300}
                   height={300}
                 />
-              </a>
+              </Link>
               <div className="mt-4">
 
                 <h2 className="text-gray-900 title-font text-lg font-medium">
@@ -95,15 +95,15 @@ const products = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-80 rounded overflow-hidden">
-                <Image
+            <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105  relative h-80 rounded overflow-hidden">
+            <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="/products/pro2.jpg"
                   width={300}
                   height={300}
                 />
-              </a>
+              </Link>
               <div className="mt-4">
 
                 <h2 className="text-gray-900 title-font text-lg font-medium">
@@ -113,7 +113,7 @@ const products = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-80 rounded overflow-hidden">
+              <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105  relative h-80 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
@@ -121,7 +121,7 @@ const products = () => {
                   width={300}
                   height={300}
                 />
-              </a>
+              </Link>
               <div className="mt-4">
 
                 <h2 className="text-gray-900 title-font text-lg font-medium">
@@ -130,15 +130,15 @@ const products = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-80 rounded overflow-hidden">
-                <Image
+            <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105  relative h-80 rounded overflow-hidden">
+            <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="/products/pro4.jpg"
                   width={300}
                   height={300}
                 />
-              </a>
+              </Link>
               <div className="mt-4">
 
                 <h2 className="text-gray-900 title-font text-lg font-medium">
@@ -147,15 +147,15 @@ const products = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-80 rounded overflow-hidden">
-                <Image
+            <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105  relative h-80 rounded overflow-hidden">
+            <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="/products/pro5.jpg"
                   width={300}
                   height={300}
                 />
-              </a>
+              </Link>
               <div className="mt-4">
 
                 <h2 className="text-gray-900 title-font text-lg font-medium">
@@ -164,15 +164,15 @@ const products = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-80 rounded overflow-hidden">
-                <Image
+            <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105  relative h-80 rounded overflow-hidden">
+            <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="/products/pro6.jpg"
                   width={300}
                   height={300}
                 />
-              </a>
+              </Link>
               <div className="mt-4">
 
                 <h2 className="text-gray-900 title-font text-lg font-medium">
@@ -181,15 +181,15 @@ const products = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-80 rounded overflow-hidden">
-                <Image
+            <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105  relative h-80 rounded overflow-hidden">
+            <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="/products/pro7.jpg"
                   width={300}
                   height={300}
                 />
-              </a>
+              </Link>
               <div className="mt-4">
 
                 <h2 className="text-gray-900 title-font text-lg font-medium">
@@ -198,15 +198,15 @@ const products = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-80 rounded overflow-hidden">
-                <Image
+            <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105  relative h-80 rounded overflow-hidden">
+            <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="/products/pro8.jpg"
                   width={300}
                   height={300}
                 />
-              </a>
+              </Link>
               <div className="mt-4">
 
                 <h2 className="text-gray-900 title-font text-lg font-medium">
@@ -215,15 +215,15 @@ const products = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-80 rounded overflow-hidden">
-                <Image
+            <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105  relative h-80 rounded overflow-hidden">
+            <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="/products/pro9.jpg"
                   width={300}
                   height={300}
                 />
-              </a>
+              </Link>
               <div className="mt-4">
 
                 <h2 className="text-gray-900 title-font text-lg font-medium">
@@ -232,15 +232,15 @@ const products = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-80 rounded overflow-hidden">
-                <Image
+            <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105  relative h-80 rounded overflow-hidden">
+            <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="/products/pro10.jpg"
                   width={300}
                   height={300}
                 />
-              </a>
+              </Link>
               <div className="mt-4">
 
                 <h2 className="text-gray-900 title-font text-lg font-medium">
@@ -249,15 +249,15 @@ const products = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-80 rounded overflow-hidden">
-                <Image
+            <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105  relative h-80 rounded overflow-hidden">
+            <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="/products/pro11.jpg"
                   width={300}
                   height={300}
                 />
-              </a>
+              </Link>
               <div className="mt-4">
 
                 <h2 className="text-gray-900 title-font text-lg font-medium">
@@ -266,15 +266,15 @@ const products = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-80 rounded overflow-hidden">
-                <Image
+            <Link href="/pages/pro" className="block transition-transform duration-500 ease-in-out transform hover:scale-105  relative h-80 rounded overflow-hidden">
+            <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src="/products/pro12.jpg"
                   width={300}
                   height={300}
                 />
-              </a>
+              </Link>
               <div className="mt-4">
 
                 <h2 className="text-gray-900 title-font text-lg font-medium">

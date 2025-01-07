@@ -1,8 +1,9 @@
 import React from 'react';
-import Hero from './pages/heer/page';
+// import Hero from './pages/heer/page';
+import About from './pages/about/page';
 const Home = () => {
   return (
-    <Hero/>
+    <About/>
   )
 }
 
