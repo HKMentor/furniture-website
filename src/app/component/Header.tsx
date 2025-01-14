@@ -10,10 +10,6 @@ const Header = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  // Toggle search menu
-  const toggleSearchMenu = () => {
-    setIsSearchOpen(!isSearchOpen);
-  };
 
   // Toggle mobile menu
   const toggleMobileMenu = () => {
@@ -26,11 +22,7 @@ const Header = () => {
       <div className="flex justify-between items-center">
         {/* Left Side: Search Icon */}
         <div className="relative flex-1 max-w-sm">
-          <FaSearch 
-            className="cursor-pointer" 
-            onClick={toggleSearchMenu} 
-            title="Search"
-          />
+        
           {isSearchOpen && (
             <div className="absolute top-8 left-0 bg-blue-950 shadow-lg border rounded-md  w-40 z-50">
               <ul className="text-white">

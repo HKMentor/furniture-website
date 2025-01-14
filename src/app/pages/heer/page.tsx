@@ -14,7 +14,7 @@ const Hero = () => {
   <div className="bg-[#2a254b]  flex flex-col md:flex-row items-center mx-auto max-w-4xl">
     {/* Left Side: Content */}
     <div className="w-full md:w-1/2 flex flex-col ml-11 text-center md:text-left items-center md:items-start mb-6 md:mb-0">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+      <h1 className="title-font sm:text-3xl  text-4xl mt-5 mb-4 font-medium text-white">
         The furniture brand for the
         <br className="hidden lg:inline-block" />
         future, with timeless designs
